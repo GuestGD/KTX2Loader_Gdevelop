@@ -8,6 +8,9 @@ HOW TO USE KTX2Loader:
 3. Write ktx2 file name. A path of the file doesnt matter. For example if the file path is "/assets/image.ktx2" you must write just "image.ktx2".
 4. Create any custom name for the loaded texture map.
 5. The loaded map is stored at scene.userData.textures[mapName]. You can use any other extension to add this texture map to desired material.
+6. Export Gdevelop project as html5 project.
+7. Put basis_transcoder.js and basis.transcoder.wasm to html5 project folder.
+8. Now you can launch index.html to use ktx2loader.
 
 
 HOW TO CREATE KTX2 TEXTURE:
